@@ -1,0 +1,128 @@
+body {
+	background-color: lightyellow;
+}
+
+.user {
+	background-color: green;
+	opacity: 0.7;
+	width: 100%;
+	margin: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: 1.2em;
+}
+.user span {
+	float: right;
+	margin-right: 15px;
+}
+.user form {
+	float: right;
+}
+.user form input {
+	background-color: lightgreen;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.title {
+	background-color: lightgreen;
+	margin: 0px;
+}
+.title h1 {
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.navbar {
+
+}
+
+.navbar ul {
+	background-color: lightgreen;
+	display: block;
+	list-style-type: none;
+}
+
+.navbar ul li {
+	display: inline-block;
+}
+.navbar ul li a {
+	color: black;
+	display: block;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 1.3em;
+}
+.navbar ul li a:hover {
+	background-color: green;
+}
+.active {
+	background-color: green;
+}
+
+.main_home h1 {
+	margin-top: 80px;
+	color: green;
+	text-shadow: 4px 4px 8px green;
+	text-align: center;
+	font-size: 3em;
+}
+
+/* ------------  stilovi za listu -----------*/
+
+.list table {
+	margin: 40px auto;
+	width: 40%;
+	color: black;
+	text-decoration: none;
+}
+.list table tr {
+	text-align: center;;
+}
+.list table tr th {
+	font-size: 1.3em;
+}
+.list table tr td a {
+	color: blue;
+}
+.recept {
+	border: 1px solid grey;
+	box-shadow: 5px 10px 18px grey;
+	width: 70%;
+	min-height: 500px;
+	margin: auto;
+}
+.recept h2 {
+	padding: 0px 30px;
+}
+.recept div {
+	padding: 5px;
+}
+
+/* ------------  stilovi za admin stranu -----------*/
+
+.admin_panel {
+	border: 1px solid grey;
+	box-shadow: 5px 10px 18px grey;
+	width: 70%;
+	min-height: 500px;
+	margin: auto;
+}
+.admin_panel h3 {
+	padding: 0px 30px;
+}
+.admin_panel form {
+	padding: 5px;
+
+}
+.admin_panel form textarea {
+	width: 90%;
+	min-height: 200px;
+}
+.admin_panel form input {
+	margin: 10px;
+}
